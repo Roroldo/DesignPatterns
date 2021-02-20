@@ -18,13 +18,13 @@ public abstract class CaffeineBeverage {
         }
     }
 
-    private void boilWater() {
+    protected void boilWater() {
         System.out.println("烧水...");
     }
 
     protected abstract void brew();
 
-    private void pourInCup() {
+    protected void pourInCup() {
         System.out.println("装入杯子...");
     }
 
