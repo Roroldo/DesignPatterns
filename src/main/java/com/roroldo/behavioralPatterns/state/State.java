@@ -12,6 +12,7 @@ public interface State {
 
     /**
      * 是否抽中奖品
+     * @return true 抽中奖品
      */
     boolean isRaffle();
 
